@@ -20,36 +20,36 @@
     <div class="container">
         <div class="songList">
             <h1>My favourite Songs</h1>
-            <div>
+            <div class="songItemContainer">
                 <div class="songItem">
-                    <img src="musicBg.jpg" alt="bg">
-                    <span>let me love you</span>
-                    <span class="songListPlay"><span class="timeStamp">03:25 <i class="fas fa-circle-play"></i></span></span>
+                    <img alt="bg">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="timeStamp">03:25 <i id="0" class="fas songItemPlay  fa-play-circle"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="musicBg.jpg" alt="bg">
-                    <span>let me love you</span>
-                    <span class="songListPlay"><span class="timeStamp">03:25 <i class="fas fa-circle-play"></i></span></span>
+                    <img alt="bg">
+                    <span class="songName">Chola Chola</span>
+                    <span class="songListPlay"><span class="timeStamp">03:25 <i id="1"  class="fas songItemPlay  fa-play-circle"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="musicBg.jpg" alt="bg">
-                    <span>let me love you</span>
-                    <span class="songListPlay"><span class="timeStamp">03:25 <i class="fas fa-circle-play"></i></span></span>
+                    <img alt="bg">
+                    <span class="songName">It's you</span>
+                    <span class="songListPlay"><span class="timeStamp">03:25 <i id="2" class="fas songItemPlay  fa-play-circle"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="musicBg.jpg" alt="bg">
-                    <span>let me love you</span>
-                    <span class="songListPlay"><span class="timeStamp">03:25 <i class="fas fa-circle-play"></i></span></span>
+                    <img alt="bg">
+                    <span class="songName">Alag Aasmaan</span>
+                    <span class="songListPlay"><span class="timeStamp">03:25 <i id="3" class="fas songItemPlay  fa-play-circle"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="musicBg.jpg" alt="bg">
-                    <span>let me love you</span>
-                    <span class="songListPlay"><span class="timeStamp">03:25 <i class="fas fa-circle-play"></i></span></span>
+                    <img alt="bg">
+                    <span class="songName">Tere Bina</span>
+                    <span class="songListPlay"><span class="timeStamp">03:25 <i id="4" class="fas songItemPlay  fa-play-circle"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="musicBg.jpg" alt="bg">
-                    <span>let me love you</span>
-                    <span class="songListPlay"><span class="timeStamp">03:25 <i class="fas fa-circle-play"></i></span></span>
+                    <img alt="bg">
+                    <span class="songName">Akhiyaan</span>
+                    <span class="songListPlay"><span class="timeStamp">03:25 <i id="5" class="fas songItemPlay  fa-play-circle"></i></span></span>
                 </div>
                 
             </div>
@@ -58,15 +58,15 @@
     </div>
 
     <div class="bottom">
-        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
         <div class="icons">
             <!--font awesome icons-->
-            <i class="fas fa-3x fa-step-backward"></i>
-            <i class="fas fa-3x fa-circle-play"></i>
-            <i class="fas fa-3x fa-step-forward"></i>
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
         </div>
         <div class="songInfo">
-            <img src="music_bg.gif" width="43px" alt=""> let me love you justin beiber
+            <img src="music_bg.gif" width="43px" alt="" id="gif"> let me love you justin beiber
         </div>
     </div>
     <script src="https://kit.fontawesome.com/cc49c38d11.js" crossorigin="anonymous"></script>
